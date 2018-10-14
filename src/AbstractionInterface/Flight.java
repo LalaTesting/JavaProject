@@ -1,6 +1,6 @@
 package AbstractionInterface;
 
-public interface RBI {
+public interface Flight {
 	//What is the use of Interface?
 	//1)With the help of interface we an achieve 100% abstraction.
 	//2)We can achieve multiple inheritance 
@@ -13,5 +13,9 @@ public interface RBI {
 	//4)Interface variable by nature is public static and final
 	//
 	
+public void searchflights();
+
+public void bookTicket();
+
 
 }
